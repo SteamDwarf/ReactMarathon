@@ -1,6 +1,6 @@
 import styles from './Layout.module.css';
 
-const Layout = ({title, desc, urlBg, colorBg}) => {
+const Layout = ({title, descr, urlBg, colorBg, children}) => {
     const inlineStyles = {
         backgroundImage: `url(${urlBg})`,
         backgroundColor: colorBg
@@ -14,8 +14,8 @@ const Layout = ({title, desc, urlBg, colorBg}) => {
                         <h3>{title}</h3>
                         <span className={styles.separator}></span>
                     </div>
-                    <div className={styles.desc, styles.full}>
-                        <p>{desc}</p>
+                    <div className={styles.desc + " " + styles.full}>
+                        <p>{children}</p>
                     </div>
                 </article>
             </div>
