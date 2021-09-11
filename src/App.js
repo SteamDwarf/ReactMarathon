@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header title={"Заголовок"} descr={"Описание"}/>
-      <Layout title={"Первый Layout заголовок"} descr={"Первый Layout описание"} colorBg={""} urlBg={firstBgImg}/>
-      <Layout title={"Второй Layout заголовок"} descr={"Второй Layout описание"} colorBg={"#6495ED"} urlBg={""}/>
-      <Layout title={"Второй Layout заголовок"} descr={"Второй Layout описание"} colorBg={""} urlBg={secondBgImg}/>
+      <Layout title={"Первый Layout заголовок"} descr={"Первый Layout описание"} urlBg={firstBgImg}/>
+      <Layout title={"Второй Layout заголовок"} descr={"Второй Layout описание"} colorBg={"#6495ED"}/>
+      <Layout title={"Второй Layout заголовок"} descr={"Второй Layout описание"} urlBg={secondBgImg}/>
       <Footer />
     </div>
   );

@@ -5,7 +5,6 @@ const Layout = ({title, desc, urlBg, colorBg}) => {
         backgroundImage: `url(${urlBg})`,
         backgroundColor: colorBg
     }
-    console.log(inlineStyles);
 
     return (
         <section className={styles.root} style={inlineStyles}>
